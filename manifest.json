@@ -1,4 +1,4 @@
-//intial page 
+
 
 {
   "name": "Getting Started Example",
@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.facebook.com/*" //onl work when facebook.com is visited
+        "*://*.facebook.com/*" 
       ],
       "js": [
         "background.js"
